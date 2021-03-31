@@ -4,7 +4,7 @@ import React from 'react'
 function FooterComponent(){
     return(
         <div>
-            Isn't this AMAZING????
+            <h1>Isn't this AMAZING????</h1>
         </div>
     )
 }
