@@ -1,14 +1,14 @@
 import React from 'react'
-// import BodyComponent from './BodyComponent'
+import BodyComponent from './BodyComponent'
 import HeaderComponent from './HeaderComponent'
-// import FooterComponent from './FooterComponent'
+import FooterComponent from './FooterComponent'
 
 function MainComponent (){
     return (
         <div>
             <HeaderComponent/>
-            {/* <BodyComponent/> 
-            <FooterComponent/> */}
+            <BodyComponent/> 
+            <FooterComponent/>
         </div>
     )
 }
