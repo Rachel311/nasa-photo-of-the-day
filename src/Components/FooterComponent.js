@@ -1,10 +1,16 @@
 import React from 'react'
+import styled from 'styled-components';
 
+
+const Footer = styled.h1`
+color: orange;
+background-color: brown;
+border: 20px dotted #9ACD32;`
 
 function FooterComponent(){
     return(
         <div>
-            <h1>Isn't this AMAZING????</h1>
+            <Footer>Isn't this AMAZING????</Footer>
         </div>
     )
 }

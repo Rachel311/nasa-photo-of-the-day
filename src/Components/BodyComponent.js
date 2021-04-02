@@ -1,5 +1,16 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import styled from 'styled-components';
+
+
+const Body = styled.p`
+background-color: #808000;
+border: 10px solid #800080;
+`
+const Body2 = styled.p`
+background-color: orange;
+border: 15px solid #FF1493;
+`
 
 function BodyComponent() {
   const [nasaInfo, setNasaInfo] = useState([]);
@@ -38,8 +49,8 @@ function BodyComponent() {
     <div>
       <div>{todaysDate}</div>
       <img src={nasaInfo.url} />
-      <p>Description... {nasaInfo.explanation}</p>
-      <p>What Nasa photo of the Day do you want to see?</p>
+      <Body>Description... {nasaInfo.explanation}</Body>
+      <Body2>What Nasa photo of the Day do you want to see?</Body2>
       <>
         Year:
         <input
